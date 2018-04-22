@@ -353,8 +353,8 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
     vendor/zte/axon7/proprietary/lib/libqmi_cci_system.so:system/lib/libqmi_cci_system.so \
     vendor/zte/axon7/proprietary/lib/librcc.so:system/lib/librcc.so \
-    vendor/zte/axon7/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
-    vendor/zte/axon7/proprietary/vendor/lib/libsdm-disp-apis.so:system/vendor/lib/libsdm-disp-apis.so \
+    vendor/zte/axon7/proprietary/lib/libsd_sdk_display.so:system/lib/libsd_sdk_display.so \
+    vendor/zte/axon7/proprietary/lib/libsdm-disp-apis.so:system/lib/libsdm-disp-apis.so \
     vendor/zte/axon7/proprietary/lib/vendor.display.color@1.0.so:system/lib/vendor.display.color@1.0.so \
     vendor/zte/axon7/proprietary/lib/vendor.display.postproc@1.0.so:system/lib/vendor.display.postproc@1.0.so \
     vendor/zte/axon7/proprietary/lib/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib/vendor.qti.hardware.qdutils_disp@1.0.so \
@@ -373,8 +373,8 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/zte/axon7/proprietary/lib64/libqmi_cci_system.so:system/lib64/libqmi_cci_system.so \
     vendor/zte/axon7/proprietary/lib64/librcc.so:system/lib64/librcc.so \
-    vendor/zte/axon7/proprietary/vendor/lib64/libsd_sdk_display.so:system/vendor/lib64/libsd_sdk_display.so \
-    vendor/zte/axon7/proprietary/vendor/lib64/libsdm-disp-apis.so:system/vendor/lib64/libsdm-disp-apis.so \
+    vendor/zte/axon7/proprietary/lib64/libsd_sdk_display.so:system/lib64/libsd_sdk_display.so \
+    vendor/zte/axon7/proprietary/lib64/libsdm-disp-apis.so:system/lib64/libsdm-disp-apis.so \
     vendor/zte/axon7/proprietary/lib64/vendor.display.color@1.0.so:system/lib64/vendor.display.color@1.0.so \
     vendor/zte/axon7/proprietary/lib64/vendor.display.postproc@1.0.so:system/lib64/vendor.display.postproc@1.0.so \
     vendor/zte/axon7/proprietary/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
@@ -529,7 +529,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/zte/axon7/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/zte/axon7/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
-    vendor/zte/axon7/proprietary/vendor/lib/libqseed3.so:system/vendor/lib/libqseed3.so \
     vendor/zte/axon7/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/zte/axon7/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/zte/axon7/proprietary/vendor/lib/libscalar.so:system/vendor/lib/libscalar.so \
@@ -541,7 +540,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/zte/axon7/proprietary/vendor/lib/libsmwrapper.so:system/vendor/lib/libsmwrapper.so \
     vendor/zte/axon7/proprietary/vendor/lib/libtinyxml2_1.so:system/vendor/lib/libtinyxml2_1.so \
-    vendor/zte/axon7/proprietary/vendor/lib/libvpphvx.so:system/vendor/lib/libvpphvx.so \
     vendor/zte/axon7/proprietary/vendor/lib/libvpplibrary.so:system/vendor/lib/libvpplibrary.so \
     vendor/zte/axon7/proprietary/vendor/lib/libvqzip.so:system/vendor/lib/libvqzip.so \
     vendor/zte/axon7/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
@@ -707,7 +705,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/vendor/lib64/libqmi_csi.so:system/vendor/lib64/libqmi_csi.so \
     vendor/zte/axon7/proprietary/vendor/lib64/libqmi_encdec.so:system/vendor/lib64/libqmi_encdec.so \
     vendor/zte/axon7/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
-    vendor/zte/axon7/proprietary/vendor/lib64/libqseed3.so:system/vendor/lib64/libqseed3.so \
     vendor/zte/axon7/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
     vendor/zte/axon7/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:system/vendor/lib64/libril-qc-ltedirectdisc.so \
     vendor/zte/axon7/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
@@ -732,7 +729,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
     vendor/zte/axon7/proprietary/vendor/lib64/libtinyxml2_1.so:system/vendor/lib64/libtinyxml2_1.so \
     vendor/zte/axon7/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
-    vendor/zte/axon7/proprietary/vendor/lib64/libvpphvx.so:system/vendor/lib64/libvpphvx.so \
     vendor/zte/axon7/proprietary/vendor/lib64/libvpplibrary.so:system/vendor/lib64/libvpplibrary.so \
     vendor/zte/axon7/proprietary/vendor/lib64/libwqe.so:system/vendor/lib64/libwqe.so \
     vendor/zte/axon7/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
